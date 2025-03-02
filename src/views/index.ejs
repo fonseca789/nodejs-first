@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <%- include ('partials/head') %>
+
+</head>
+
+<body>
+    <%- include ('partials/navigation') %>
+        <!-- Contenido de la Page-->
+        <div>
+            <h1>Home</h1>
+        </div>
+        <header class="bg-lingh text-white vh-100 d-flex justify-content-center align-items-center">
+
+            <div class="d-flex flex-column justify-content-center align-items-center">
+
+                <img src="/img/fonseca.png" alt="logo fonseca" class="img-fluid w-25">
+                <a href="/about" class="btn btn-primary w-25">About</a>
+            </div>
+
+            </div>
+        </header>
+        <h1 class="my-5 text-uppercase fw-bold">This is the home page</h1>
+        <%- include ('partials/footer') %>
+</body>
+
+</html>
